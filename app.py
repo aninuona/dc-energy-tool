@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # --- CONFIG ---
-st.set_page_config(page_title="NetZero DC Navigator", layout="wide")
+st.set_page_config(page_title="NetZero Data Center", layout="wide")
 
 # --- UI ---
 st.markdown("""
@@ -57,8 +57,8 @@ cue = (total_facility_power * 8760 * emission_factor) / (it_load * 8760) # kgCO2
 density = it_load / num_racks if num_racks > 0 else 0
 
 # --- MAIN DASHBOARD ---
-st.title("🌐 NetZero Data Center Navigator")
-st.markdown("#### Real-time Efficiency & Intensity Analysis")
+st.title("🌐 NetZero Data Center")
+st.markdown("#### Efficiency & Intensity Analysis")
 
 # Top Level KPI Row
 c1, c2, c3, c4 = st.columns(4)
