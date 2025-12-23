@@ -1,2 +1,2 @@
-# dc-energy-tool
+# NetZero Data Center
 high-density data center efficiency
