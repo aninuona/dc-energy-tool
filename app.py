@@ -10,17 +10,12 @@ st.set_page_config(page_title="NetZero DC Navigator", layout="wide")
 # --- UI ---
 st.markdown("""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-    html, body, [class*="st-emotion-cache"] {
-        font-family: 'Poppins', sans-serif !important;
-    }
-
-    /* Sidebar - Compact Spacing */
+    /* Sidebar */
     [data-testid="stSidebarUserContent"] { padding-top: 1rem !important; }
     .stNumberInput, .stSlider { margin-bottom: -10px !important; }
 
-    /* Modern Metric Cards */
+    /* Metric Cards */
     [data-testid="stMetricValue"] { font-weight: 600; color: #00d2ff; }
     .metric-container {
         background: rgba(255, 255, 255, 0.05);
@@ -30,7 +25,7 @@ st.markdown("""
         backdrop-filter: blur(10px);
     }
     
-    /* Global Background */
+    /* Background */
     .stApp { background-color: #0b0e14; }
     </style>
     """, unsafe_allow_html=True)
