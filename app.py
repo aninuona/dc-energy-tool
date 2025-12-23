@@ -124,4 +124,4 @@ with tab3:
     st.plotly_chart(fig_trend, use_container_width=True)
 
 st.markdown("---")
-st.caption("v1.2 | Data Center Energy Intensity Tool | Built with Poppins & Modern UX")
+st.caption("v1.2 | Data Center Energy Intensity Tool | [GitHub: aninuona](https://github.com/aninuona/)")
